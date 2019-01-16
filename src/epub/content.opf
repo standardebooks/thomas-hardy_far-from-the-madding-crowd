@@ -28,8 +28,8 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
 		<link href="onix.xml" rel="onix-record"/>
-		<dc:title id="title">Far From the Madding Crowd</dc:title>
-		<meta property="file-as" refines="#title">Far From the Madding Crowd</meta>
+		<dc:title id="title">Far from the Madding Crowd</dc:title>
+		<meta property="file-as" refines="#title">Far from the Madding Crowd</meta>
 		<dc:subject id="subject-1">Didactic fiction</dc:subject>
 		<dc:subject id="subject-2">Love stories</dc:subject>
 		<dc:subject id="subject-3">Triangles (Interpersonal relations) -- Fiction</dc:subject>
@@ -73,6 +73,7 @@
 		<dc:contributor id="transcriber-1">Joseph E. Loewenstein</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lowenstein, Joseph E.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">ann</meta>
 		<dc:contributor id="producer-1">Michael Atkinson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Atkinson, Michael</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://github.org/michael-77</meta>
