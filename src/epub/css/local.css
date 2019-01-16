@@ -20,3 +20,44 @@
 	font-style: normal;
 	font-variant: small-caps;
 }
+
+#chapter-36 blockquote{
+	text-align: right;
+}
+
+.article{
+}
+
+p[epub|type~="z3998:salutation"],
+p[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+footer{
+	text-align: right;
+	margin-top: 1em;
+}
+
+b,
+.signature{
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+/* Gravestone-type inscriptions */
+.inscription{
+	text-align: center;
+}
+
+.inscription p{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 1em;
+}
