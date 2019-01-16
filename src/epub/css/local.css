@@ -2,13 +2,21 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 [epub|type~="bridgehead"]{
-display: inline-block;
-font-style: italic;
-max-width: 60%;
-text-align: justify;
-text-indent: 0;
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
 }
 
 [epub|type~="bridgehead"] i{
-font-style: normal;
+	font-style: normal;
+}
+
+.inscription{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-style: normal;
+	font-variant: small-caps;
 }
