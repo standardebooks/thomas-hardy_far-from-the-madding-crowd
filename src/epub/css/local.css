@@ -61,3 +61,7 @@ b,
 	font-style: normal;
 	margin-bottom: 1em;
 }
+
+#chapter-15 .inscription img{
+	height: 1em !important;
+}
