@@ -21,11 +21,13 @@
 	font-variant: small-caps;
 }
 
-#chapter-36 blockquote{
-	text-align: right;
+#chapter-34 blockquote header{
+	font-variant: small-caps;
+	font-style: normal;
 }
 
-.article{
+#chapter-36 blockquote{
+	text-align: right;
 }
 
 p[epub|type~="z3998:salutation"],
@@ -63,5 +65,5 @@ b,
 }
 
 #chapter-15 .inscription img{
-	height: 1em !important;
+	height: 1em;
 }
