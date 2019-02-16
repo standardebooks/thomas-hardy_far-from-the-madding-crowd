@@ -14,13 +14,26 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
+#chapter-15 .inscription img{
+	height: 1em;
+}
+
 #chapter-34 blockquote header{
 	font-variant: small-caps;
 	font-style: normal;
 }
 
 #chapter-36 blockquote{
+	text-align: center;
+}
+
+#chapter-36 blockquote p{
 	text-align: right;
+	display: inline-block;
+}
+
+#chapter-36 blockquote span{
+	text-decoration: underline;
 }
 
 p[epub|type~="z3998:salutation"],
@@ -38,7 +51,6 @@ footer{
 	margin-top: 1em;
 }
 
-b,
 .signature{
 	font-style: normal;
 	font-variant: small-caps;
@@ -55,10 +67,6 @@ b,
 	font-weight: normal;
 	font-style: normal;
 	margin-bottom: 1em;
-}
-
-#chapter-15 .inscription img{
-	height: 1em;
 }
 
 [epub|type~="z3998:song"] p,
@@ -82,4 +90,9 @@ b,
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
 }
