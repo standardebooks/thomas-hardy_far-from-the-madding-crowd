@@ -7,66 +7,54 @@ span[epub|type~="subtitle"]{
 }
 
 .inscription{
+	font-style: normal;
+	font-variant: small-caps;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-style: normal;
-	font-variant: small-caps;
 }
 
 #chapter-15 .inscription img{
 	height: 1em;
 }
 
+/* Newspaper cutting */
 #chapter-34 blockquote header{
-	font-variant: small-caps;
 	font-style: normal;
+	font-variant: small-caps;
 }
 
+/* Accounting bill */
 #chapter-36 blockquote{
 	text-align: center;
 }
 
 #chapter-36 blockquote p{
-	text-align: right;
 	display: inline-block;
+	text-align: right;
 }
 
 #chapter-36 blockquote span{
 	text-decoration: underline;
 }
 
-p[epub|type~="z3998:salutation"],
+p[epub|type~="z3998:salutation"]{
+	font-style: normal;
+	font-variant: small-caps;
+}
+
 p[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
-p[epub|type~="z3998:salutation"]{
-	font-variant: small-caps;
-	font-style: normal;
-}
-
 footer{
-	text-align: right;
 	margin-top: 1em;
+	text-align: right;
 }
 
 .signature{
 	font-style: normal;
 	font-variant: small-caps;
-}
-
-/* Gravestone-type inscriptions */
-.inscription{
-	text-align: center;
-}
-
-.inscription p{
-	text-align: center;
-	font-variant: small-caps;
-	font-weight: normal;
-	font-style: normal;
-	margin-bottom: 1em;
 }
 
 [epub|type~="z3998:song"] p,
@@ -78,8 +66,8 @@ footer{
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:song"] p > span + br,
@@ -88,11 +76,11 @@ footer{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i2{
-	text-indent: -1em;
 	padding-left: 3em;
+	text-indent: -1em;
 }
