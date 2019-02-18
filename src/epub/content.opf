@@ -69,10 +69,13 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Charles_Jacque</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n84168010</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Joseph E. Loewenstein</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Lowenstein, Joseph E.</meta>
+		<dc:contributor id="transcriber-1">Anonymous Volunteers</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonymous Volunteers</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">ann</meta>
+		<dc:contributor id="transcriber-2">Joseph E. Loewenstein</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Lowenstein, Joseph E.</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">ann</meta>
 		<dc:contributor id="producer-1">Michael Atkinson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Atkinson, Michael</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://github.org/michael-77</meta>
