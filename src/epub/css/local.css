@@ -79,3 +79,19 @@ p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
 }
+
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	height: 1em;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
