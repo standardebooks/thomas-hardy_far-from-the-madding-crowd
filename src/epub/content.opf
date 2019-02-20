@@ -48,10 +48,9 @@
 		<dc:description id="description">A young shapherd falls in love with a young, seemingly independent and strong-willed lady famer.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Far from the Madding Crowd&lt;/i&gt; was written in 1874 by Thomas Hardy. It was his fourth novel and his first major literary success. Originally, it appeared as a monthly serial in &lt;i&gt;Cornhill Magazine&lt;/i&gt;, where it gained a wide readership.&lt;/p&gt;
-			&lt;p&gt;The novel deals with the themes of love, honour and betrayal, against a backdrop of the seemingly idyllic, but often harsh, realities of a farming community in Victorian England. It describes the life and relationships of Bathsheba Everdene with her lonely neighbour William Boldwood, the faithful shepherd Gabriel Oak, and the thriftless soldier Sergeant Troy.&lt;/p&gt;
-			&lt;p&gt;It is the first novel to be set in Hardy’s fictional Wessex which is a “partly real, partly dream-country” that unify his novels of southwest England.&lt;/p&gt;
-			&lt;p&gt;On publication, critical notices were plentiful and mostly positive. It has since been adapted for the stage, television, radio and film.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Far from the Madding Crowd&lt;/i&gt; was Thomas Hardy’s fourth novel and was completed in 1874. It was originally serialized in &lt;i&gt;Cornhill Magazine&lt;/i&gt; and was quickly published in a successful single volume.&lt;/p&gt;
+			&lt;p&gt;Thomas Hardy described Wessex as “a merely realistic dream country” and so it is in &lt;i&gt;Far from the Madding Crowd&lt;/i&gt;, where an idyllic view of the countryside is interrupted by the bitter reality of farming life. The novel is the first which Hardy sets in fictional Wessex and he quickly realised that setting novels there could be a money-earner which would subsidise his poetry-writing ambitions.&lt;/p&gt;
+			&lt;p&gt;Gabriel Oak, the faithful man and aspiring farmer; Bathsheba Everdene, the young and independent lady farmer; William Boldwood, the lonely neighbour; and Sergeant Troy, the dashing military man lead intertwined lives which are full of love and loss.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
