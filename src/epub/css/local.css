@@ -7,39 +7,35 @@ span[epub|type~="subtitle"]{
 }
 
 .inscription{
-	font-style: normal;
 	font-variant: small-caps;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
-}
-
-#chapter-15 .inscription img{
-	height: 1em;
 }
 
 /* Newspaper cutting */
 #chapter-34 blockquote header{
-	font-style: normal;
 	font-variant: small-caps;
 }
 
 /* Accounting bill */
-#chapter-36 blockquote{
-	text-align: center;
+table{
+	margin: 1em auto;
+	font-variant-numeric: tabular-nums;
 }
 
-#chapter-36 blockquote p{
-	display: inline-block;
+table tr td{
+	padding: 0 .5em;
+	vertical-align: top;
+}
+
+table td:first-child{
 	text-align: right;
 }
 
-#chapter-36 blockquote span{
-	text-decoration: underline;
+table tr:last-child td:last-child{
+	border-top: 1px solid;
 }
 
 p[epub|type~="z3998:salutation"]{
-	font-style: normal;
 	font-variant: small-caps;
 }
 
@@ -53,7 +49,6 @@ footer{
 }
 
 .signature{
-	font-style: normal;
 	font-variant: small-caps;
 }
 
