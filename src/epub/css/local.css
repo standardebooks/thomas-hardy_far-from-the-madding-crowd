@@ -76,13 +76,17 @@ p span.i2{
 }
 
 figure{
+	break-inside: avoid;
 	margin: 1em auto;
 	text-align: center;
 }
 
 figure img{
 	display: block;
-	height: 1em;
 	margin: auto;
 	max-width: 100%;
+}
+
+figure img{
+	height: 1em;
 }
