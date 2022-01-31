@@ -13,8 +13,8 @@
 
 /* Accounting bill */
 table{
-	margin: 1em auto;
 	font-variant-numeric: tabular-nums;
+	margin: 1em auto;
 }
 
 table tr td{
