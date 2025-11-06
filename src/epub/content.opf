@@ -52,6 +52,8 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008113649</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Wessex</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
 		<dc:description id="description">A young shepherd falls in love with a young, seemingly independent and strong-willed lady farmer.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Far from the Madding Crowd&lt;/i&gt; was &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Thomas Hardy’s&lt;/a&gt; fourth novel and was completed in 1874. It was originally serialized in &lt;i&gt;Cornhill Magazine&lt;/i&gt; and was quickly published in a successful single volume.&lt;/p&gt;
