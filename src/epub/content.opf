@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-hardy/far-from-the-madding-crowd</dc:identifier>
 		<dc:date>2019-02-20T22:14:08Z</dc:date>
@@ -55,12 +55,12 @@
 		<meta property="schema:genre">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Wessex</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
-		<dc:description id="description">A young shepherd falls in love with a young, seemingly independent and strong-willed lady farmer.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A young shepherd falls in love with a young, seemingly independent and strong-willed lady farmer.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Far from the Madding Crowd&lt;/i&gt; was &lt;a href="https://standardebooks.org/ebooks/thomas-hardy"&gt;Thomas Hardy’s&lt;/a&gt; fourth novel and was completed in 1874. It was originally serialized in &lt;i&gt;Cornhill Magazine&lt;/i&gt; and was quickly published in a successful single volume.&lt;/p&gt;
 			&lt;p&gt;Hardy described Wessex as “a merely realistic dream country” and so it is in &lt;i&gt;Far from the Madding Crowd&lt;/i&gt;, where an idyllic view of the countryside is interrupted by the bitter reality of farming life. The novel is the first that Hardy sets in fictional Wessex; he quickly realised that setting novels there could be a money-earner that would subsidise his poetry-writing ambitions.&lt;/p&gt;
 			&lt;p&gt;Gabriel Oak, the faithful man and aspiring farmer; Bathsheba Everdene, the young and independent lady farmer; William Boldwood, the lonely neighbour; and Sergeant Troy, the dashing military man, all lead intertwined lives which are full of love and loss.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/107</dc:source>
 		<dc:source>https://archive.org/details/farfrommaddingc00hardgoog</dc:source>
