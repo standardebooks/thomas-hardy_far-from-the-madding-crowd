@@ -85,12 +85,12 @@
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Joseph E. Loewenstein</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">Lowenstein, Joseph E.</meta>
+		<meta property="file-as" refines="#transcriber-2">Loewenstein, Joseph E.</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Michael Atkinson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Atkinson, Michael</meta>
-		<link href="https://github.org/michael-77" refines="#producer-1" rel="schema:url"/>
+		<link href="https://github.com/michael-77" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
